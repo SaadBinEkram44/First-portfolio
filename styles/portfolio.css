@@ -3,7 +3,7 @@
     font-family: 'Work Sans', sans-serif;
 
 }
-
+ /* banner  */
 .banner {
     color: #fff;
 
@@ -15,7 +15,6 @@
     background-image: url(/images/banner/banner3.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    align-items: center;
     padding: 230px 230px 200px 835px;
 }
 
@@ -77,6 +76,20 @@
     height: 90px;
     width: 90px;
 }
+
+/* Goals  */
+.goals{
+    display: flex;
+    margin:0px 320px 125px 205px;
+    justify-content: space-between;
+    background-color: lightgrey;
+    width: 980px;
+    height: 523px;
+    background: linear-gradient(to left, black,rgba(247, 245, 245, 0));
+    color: #fff;
+    list-style: square;
+}
+
  /* call now  */
  .call{
     background: linear-gradient(to right,rgb(27, 107, 211),rgba(243, 243, 243, 0)), url(/images/watch.png);
@@ -103,13 +116,14 @@
     padding-top: 8px;
     border-radius: 4px;
  }
+ /* footer  */
  footer{
     background-color: #151414;
     display: flex;
-    height: 350px;
+    height: 250px;
     width: 880px;
     margin: 20px 200px;
-    padding: 20px 50px;
+    padding: 50px 50px;
  }
  .future{ 
     color: #fff;
@@ -125,17 +139,35 @@
     height: 10px;
     width: 10px;
     color: #fff;
-    margin: 1px 25px;
+    margin: 1px 45px 1px 0px;
 }
 #last{
     color: #fff;
     align-items: center;
 }
+.subs{
+    padding-left: 100px;
+}
 
 input{
     background-color: #151414;
     color: #fff;
-    border: 2px,#fff;
-    border
-
+    border: 1px solid #fff;
+    border-radius: 4px;
+    height: 35px;
+    width: auto;
+    margin: 20px auto 10px 0px;
+    font-weight: 400;
 }
+
+.btn-3{
+    height: 35px;
+    width: 100px;
+    background-color: rgb(27, 107, 211);
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 4px;
+    align-items: center;
+}
+
