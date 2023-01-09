@@ -102,7 +102,7 @@
 
 /* call now  */
 .call {
-    background: linear-gradient(to right, rgb(27, 107, 211), rgba(243, 243, 243, 0)), url(/images/watch.png);
+    background: linear-gradient(to right, rgb(27, 107, 211), rgba(243, 243, 243, 0)), url(../images/watch.png);
     height: 100px;
     width: 880px;
     margin: 40px 200px;
